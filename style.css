@@ -1,0 +1,15 @@
+/*Header and links*/
+.header{
+    display: flex;
+    height: 140px;
+    padding: 16px;
+    background: #1f2937;
+}
+
+/*Header logo*/
+.logo{
+    color: #F9FAF8 ;
+    font-size: 24px;
+}
+
+
