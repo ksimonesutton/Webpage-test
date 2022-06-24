@@ -23,12 +23,13 @@ flex: 1;
    
  }
   ul{
+   
     display:flex;
     gap: 20px;
     list-style: none;
     /*color and size*/
     color: #E5E7EB;
-    font-size:18px;
+    font-size:14px;
  }
 
 
@@ -68,6 +69,9 @@ flex: 1;
     background-color: #3882F6;
     border: none;
     border-radius: 10px;
+    width:100px;
+    border:1px solid #F9FAF8;
+    
  }
 
  /*Middle of the page*/
@@ -84,8 +88,89 @@ flex: 1;
  }
 
  .middle-images{
-   background-color: #3882F6;
-   
+   display: flex;
+   width: auto;
+   height: 100px;
+   gap: 50px;
+   justify-content: center;
+     
  }
+ .img{
+   width: 100px;
+   height: 100px;
+   border:3px solid #3882F6;
+   border-radius: 10px;
+
+ }
+ /* text under image */
+ .subtext-container{
+   display: flex;
+   width: auto;
+   gap: 60px;
+   justify-content: center;
+ }
+ 
+.subtext{
+   width: 100px;
+   height: 100px;
+   
+}
+
+/*for the quote */
+.quote{
+   background-color:#E5E7EB ;
+   padding: 50px;
+}
+.quote-text{
+font-size: 20px;
+font-style: italic;
+color: #1F2937;
+justify-content: center;
+padding: 80px;
+padding-bottom: 0px;
+}
+.bottom-text{
+   display: flex;
+   
+}
+.Thor{
+   font-weight: bolder;
+   padding-left: 400px;
+}
+
+.bottom-block{
+   padding:100px;
+   color: #F9FAF8;
+   
+   
+   
+   
+}
+h3{
+   margin-bottom: 0px;
+   font-size: 15px;
+}
+.bottom-text-two{
+   display: flex;
+   gap: 300px;
+   background-color: #3882F6; 
+   padding-top: 20px; 
+   padding-left: 20px;
+   padding-right: 20px; 
+   border-top-left-radius: 10px;  
+   border-top-right-radius: 10px; 
+}
+ 
+.sign-up-quote{
+   margin-top: 0px;
+   background-color: #3882F6;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+
  
  
